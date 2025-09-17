@@ -173,15 +173,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     }
 
     private void abrirConsultaRubro() {
-        ConsultaRubroInternalFrame frame = new ConsultaRubroInternalFrame();
-        desktopPane.add(frame);
-        centrarVentanaInterna(frame);
-        frame.setVisible(true);
-        try {
-            frame.setSelected(true);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        ConsultaRubroInternalFrame frame = new ConsultaRubroInternalFrame();
+//        desktopPane.add(frame);
+//        centrarVentanaInterna(frame);
+//        frame.setVisible(true);
+//        try {
+//            frame.setSelected(true);
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
     }
 
     private void centrarVentanaInterna(JInternalFrame frame) {
